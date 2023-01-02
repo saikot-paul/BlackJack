@@ -35,14 +35,14 @@ In order to learn JavaScript I decided to build the game of BlackJack.
 # ENHANCEMENTS 
 
 * Code:
-  ** Create a player and dealer class 
-  ** Allow player to play against automated dealer 
+  * Create a player and dealer class 
+  * Allow player to play against automated dealer 
  
 * Interface: 
-  ** Make a better looking interface 
+  * Make a better looking interface 
   
 * Deployment:
-  ** Figure out how to deploy on AWS/GCP 
+  * Figure out how to deploy on AWS/GCP 
 
 
 
