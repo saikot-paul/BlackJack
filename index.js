@@ -56,12 +56,11 @@ function checkGameRules() {
     let restart = ''; 
     
     if (!isAlive){ 
-        restart = "\n Press restart to try again";
         new_cardEl.disabled = true; 
         errorEl.textContent = "YOU LOST, PRESS RESTART"
     }
 
-    resultEl.textContent = message + restart;
+    resultEl.textContent = message;
 }
 
 function getSum() {
