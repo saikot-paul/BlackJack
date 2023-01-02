@@ -21,7 +21,7 @@ function startGame(){
     card_str = getCardString();
     cardsEl.textContent = "Cards: " + card_str; 
     startClick = true; 
-    
+
     checkGameRules(); 
     
     if (startClick = true){ 
@@ -58,7 +58,7 @@ function checkGameRules() {
     if (!isAlive){ 
         restart = "\n Press restart to try again";
         new_cardEl.disabled = true; 
-        errorEl.textContent = "YOU LOST, RESTART TO START OVER"
+        errorEl.textContent = "YOU LOST, PRESS RESTART"
     }
 
     resultEl.textContent = message + restart;
@@ -105,6 +105,7 @@ function restart(){
     cardsEl.textContent = "Cards: "; 
     new_cardEl.textContent = "NEW CARD"; 
     sumEl.textContent = "Sum: "; 
+    errorEl.textContent = "";
 }
 
 function getRandomInt(){ 
