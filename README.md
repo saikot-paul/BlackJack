@@ -13,6 +13,12 @@ In order to learn JavaScript I decided to build the game of BlackJack.
     * newCard() 
       * function activated when the new card button is pressed 
       * used to add new card to player's hand 
+    * restart()
+      * function activated when restart button is pressed 
+      * starts the game over and cleans the interface to beginning 
+      * users must press the start game button in order for a new game to commence 
+    * getRandomInt() 
+      * helper function used to get integer value between 2 and 11 
     * getSum()
       * helper function used to get current sum of player's hand 
     * getCardString()
