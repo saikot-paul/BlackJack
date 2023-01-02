@@ -2,27 +2,26 @@
 In order to learn JavaScript I decided to build the game of BlackJack. 
 
 # FILES:
-* BlackJackGame/ 
-  * index.css -> contains all the stylings for the game 
-  * index.html -> contains all the presentation portion of the game 
-  * index.js -> contains all the code functions for the game: 
-    * startGame()
-      * function that starts the game when the start button is press, uses the initialized variables to start the game and is disabled while a game is in progress 
-    * checkGameRules()
-      * function that checks whether the current state of the game can be continued, or is won/lost 
-    * newCard() 
-      * function activated when the new card button is pressed 
-      * used to add new card to player's hand 
-    * restart()
-      * function activated when restart button is pressed 
-      * starts the game over and cleans the interface to beginning 
-      * users must press the start game button in order for a new game to commence 
-    * getRandomInt() 
-      * helper function used to get integer value between 2 and 11 
-    * getSum()
-      * helper function used to get current sum of player's hand 
-    * getCardString()
-      * helper function used to format the current belonging to the player 
+* index.css -> contains all the stylings for the game 
+* index.html -> contains all the presentation portion of the game 
+* index.js -> contains all the code functions for the game: 
+ * startGame()
+   * function that starts the game when the start button is press, uses the initialized variables to start the game and is disabled while a game is in progress 
+ * checkGameRules()
+   * function that checks whether the current state of the game can be continued, or is won/lost 
+ * newCard() 
+   * function activated when the new card button is pressed 
+   * used to add new card to player's hand 
+ * restart()
+   * function activated when restart button is pressed 
+   * starts the game over and cleans the interface to beginning 
+   * users must press the start game button in order for a new game to commence 
+ * getRandomInt() 
+   * helper function used to get integer value between 2 and 11 
+ * getSum()
+   * helper function used to get current sum of player's hand 
+ * getCardString()
+   * helper function used to format the current belonging to the player 
   
     
     
