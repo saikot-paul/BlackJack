@@ -35,7 +35,7 @@ In order to learn JavaScript I decided to build the game of BlackJack.
 # ENHANCEMENTS 
 
 * Code:
-  * Create a player and dealer class 
+  * Create classes (i.e. player/dealer classes)
   * Allow player to play against automated dealer 
  
 * Interface: 
