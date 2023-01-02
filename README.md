@@ -1,6 +1,26 @@
 # BlackJack
 In order to learn JavaScript I decided to build the game of BlackJack. 
 
+# FILES:
+* BlackJackGame/ 
+  * index.css -> contains all the stylings for the game 
+  * index.html -> contains all the presentation portion of the game 
+  * index.js -> contains all the code functions for the game: 
+    * startGame()
+      * function that starts the game when the start button is press, uses the initialized variables to start the game and is disabled while a game is in progress 
+    * checkGameRules()
+      * function that checks whether the current state of the game can be continued, or is won/lost 
+    * newCard() 
+      * function activated when the new card button is pressed 
+      * used to add new card to player's hand 
+    * getSum()
+      * helper function used to get current sum of player's hand 
+    * getCardString()
+      * helper function used to format the current belonging to the player 
+  
+    
+    
+  
 # BUGS 
 * Can press START button multiple times without following game context/rules
 
@@ -36,10 +56,12 @@ In order to learn JavaScript I decided to build the game of BlackJack.
 
 * Code:
   * Create classes (i.e. player/dealer classes)
+  * Figure out how to use A for either 1, or 10
   * Allow player to play against automated dealer 
  
 * Interface: 
   * Make a better looking interface 
+  * Show actual cards instead of numbers 
   
 * Deployment:
   * Figure out how to deploy on AWS/GCP 
