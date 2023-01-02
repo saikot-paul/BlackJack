@@ -1,5 +1,8 @@
 # BlackJack
-In order to learn JavaScript I decided to build the game of BlackJack. 
+In order to learn JavaScript I decided to build the game of BlackJack. The game consists of a simple UI. There is a name for the game, text for the cards the current player holds, text for the current sum of their hand and three buttons. In order to start a new game, click START GAME, after starting a game this button is disabled. To get a new card, click the NEW CARD buttton. Each click will check the game rules, if the player wins then a winning text will appear, if lost then a losing text will appear, and if the player can continue you have the option to get a new card. In the case where a player wins or loses, both the START GAME and NEW CARD button are disabled, the user can only press the RESTART button. Should the player not press the RESTART button another text will appear reminding them to. After RESTART button is pressed, START GAME is enabled once again but NEW CARD remains disabled until a new game is started. 
+
+Link to game: 
+* https://main.d1zooye0x5kmvu.amplifyapp.com/ 
 
 # FILES:
 * index.css -> contains all the stylings for the game 
