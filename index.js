@@ -47,7 +47,7 @@ function checkGameRules() {
         message = "You won!!!";
         isAlive = false;  
     } else {
-        message = "You lost! Press Restart and then Start Game";
+        message = "You lost! Press RESTART, then START GAME to play again";
         isAlive = false; 
     }
 
