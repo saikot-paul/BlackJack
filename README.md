@@ -72,7 +72,8 @@ Link to game:
   * Show actual cards instead of numbers 
   
 * Deployment:
-  * Figure out how to deploy on AWS/GCP 
+  * ~Figure out how to deploy on AWS/GCP~
+    * Solution: Used AWS Amplify to host, by linking existing GitHub Repo    
 
 
 
